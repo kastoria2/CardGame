@@ -22,6 +22,7 @@ class Cards:
             ["deck", "deck", "deck", "deck", "deck"],  # Card Pile (deck, hand, table
             [0, 0, 0, 0, 0],  # player holding card
             [False, False, False, False, False]  # Card visible
+            #  this is a comment
         ]
 
     def prt_deck_state(self):
