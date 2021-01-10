@@ -23,6 +23,7 @@ class Cards:
             [0, 0, 0, 0, 0],  # player holding card
             [False, False, False, False, False]  # Card visible
             #  this is a comment
+            #  This is a second test so I can try to remember all this.
         ]
 
     def prt_deck_state(self):
