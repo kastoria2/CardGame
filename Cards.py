@@ -63,3 +63,5 @@ deck.prt_deck_state()
 print(' ')
 deck.shuffle_deck()
 deck.prt_deck_state()
+
+cards.
