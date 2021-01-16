@@ -1,13 +1,13 @@
 import random
 
+
 def prt_cards(Card):
     """This method prints all the attributes of the cards in the deck.  This is used for testing"""
+    cards = Card
     x = 0
     for item in cards:
         print(cards[x].card_name)
         x += 1
-
-
 
 
 class Card:
@@ -32,7 +32,7 @@ def make_deck():
     """ This fucntion makes a deck of cards."""
     x = 0
     for item in card_names:
-        #cards.append(item)
+        # cards.append(item)
         cards.append(Card(card_names[x], x))
         x += 1
 
@@ -49,19 +49,23 @@ def shuffle_deck():
 
 def sort_deck_by_position():
     """This sorts the deck of cards by the deck order (card_position)"""
-    #cards.sort(key=lambda card: card.card_position)
+    # cards.sort(key=lambda card: card.card_position)
     pass
+
 
 def cut_deck(self, num):
     self.cut_postion = num
-    
+
 
 if __name__ == '__main__':
+    print(card_names)
+
+
+
+
+
     print("creating deck of cards")
-    cards = []
-    make_deck()
-    #shuffle_deck()
-    prt_cards(cards)
-
-
-
+    #cards = []
+   # make_deck()
+    # shuffle_deck()
+    #prt_cards(cards)
